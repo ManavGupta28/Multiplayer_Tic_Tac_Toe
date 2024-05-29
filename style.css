@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#board{
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+}
+.square{
+    border: 1px solid blue;
+    font-size: 4rem;  
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+#heading{
+    font-weight: 300;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subheading{
+    display: flex;
+    gap: 15;
+    font-weight: 200;
+}
+h2{
+    font-weight: 200;
+}
+#hai{
+    color: rgb(0, 110, 255);
+    margin-right: 15px;
+}
+#leaderboard{
+    font-weight: lighter;
+    font-size: medium;
+}
